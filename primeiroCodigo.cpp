@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout <<"Primeiro Codigo" << std::endl;
+    std::cout <<"Primeiro Código" << std::endl;
     system("Pause");
     return 0;
 }

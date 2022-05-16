@@ -9,6 +9,7 @@ int main(){
     << "na" << "\n"
     << "linguagem" << "\n"
     << "C++"<< "\n";
+    system("COLOR 20");
     system("Pause");
     return 0;
 }

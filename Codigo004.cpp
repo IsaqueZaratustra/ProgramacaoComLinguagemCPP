@@ -1,5 +1,5 @@
 # include <iostream>
-
+# include <iomanip>
 //# define NUM_VIDAS 10
 
 int main()

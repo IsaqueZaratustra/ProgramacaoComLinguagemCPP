@@ -3,13 +3,11 @@
 
 int main()
 {
-    int Numero;
-    float Numero2;
+    int Numero = 45;
+    float Numero2 = 55.56f;;
     double Numero3 = 45345.904555;
     char charactere = '3';
     char charactere2 = 'k';
-    Numero = 45;
-    Numero2 = 55.56f;
     bool bAchou;
 
     bAchou = 1;
@@ -27,8 +25,8 @@ int main()
 
 
     std::cout << "Valor do Numero: " << Numero << std::endl;
-    std::cout << "Tamanho da variavel Numero: " << sizeof(Numero) << std::endl;
-    std::cout << "Endereco carregado na memoria: " << &Numero << std::endl;
+    std::cout << "Tamanho da variável Numero: " << sizeof(Numero) << std::endl;
+    std::cout << "Endereço carregado na memoria: " << &Numero << std::endl;
 
     std::cout << "Valor do Numero2: " << Numero2 << std::endl;
     std::cout << "Tamanho da variavel Numero2: " << sizeof(Numero) << std::endl;
@@ -45,6 +43,4 @@ int main()
     std::cout << "Valor do charactere: " << charactere2 << std::endl;
     std::cout << "Tamanho da variavel charactere2: " << sizeof(Numero) << std::endl;
     std::cout << "Endereco carregado na memoria: " << &Numero << std::endl;
-
-    
 }

@@ -3,9 +3,18 @@
 int main()
 {
     int Numero01, Numero02;
-    std::cout << "Digite o Numero01: ";
-    std::cin >> Numero01 >>std::endl;
-    std:cin >> Numero02>> Numero01 >> std::endl;
+
+    std::cout << "Digite o primeiro numero: ";
+    std::cin >> Numero01 ;
+    std::cout << "Numero01 = " << Numero01 << std::endl;
+    std::cout << "Digite o segundo numero: ";
+    std::cin >> Numero02 ;
+    std::cout << "Numero02 = " << Numero02 << std::endl; 
+    int Soma = Numero01 + Numero02;
+    std::cout << "Numero01 + Numero02 = " << Soma << std::endl; 
+    
+
     system("Pause");
     return 0;
 }
+

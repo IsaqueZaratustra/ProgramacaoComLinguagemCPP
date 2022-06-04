@@ -2,11 +2,9 @@
 
 int main()
 {
-    int Numero01;
-    int Numero02;
-    int Numero03;
-    int Soma = Numero01 + Numero02 + Numero03;
-    int Media = Soma / 3; 
+    setlocale(LC_ALL, "portuguese");
+    float Numero01, Numero02, Numero03;
+    float Media = {0.0}; 
 
     std::cout << "Digite o primeiro numero: ";
     std::cin >> Numero01 ;
@@ -15,9 +13,9 @@ int main()
     std::cout << "Digite o terceiro numero: ";
     std::cin >> Numero03 ;
     std::cout << "Numeros digitados: " << Numero01 << " " << Numero02 << " " << Numero03 << std::endl;
-    std::cout << "Soma dos numeros:" << Soma << std::endl;
+    Media = (Numero01 + Numero02 + Numero03)/3;
     std::cout << "Media dos numeros: " << Media << std::endl;
 
-    system("Pause");
+    system("PAUSE");
     return 0;
 }

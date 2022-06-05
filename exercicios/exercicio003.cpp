@@ -1,10 +1,10 @@
 # include <iostream>
 
-int NumComputadores = 100;
-int SerialComputadores = 11111;
-
 int main()
 {
+    int NumComputadores = 100;
+    int SerialComputadores = 11111;
+    
     std::cout << "$$$$$$$$$$" << std::endl;
     std::cout << "Valor de NumComputadores: " << NumComputadores << std::endl;
     std::cout << "Valor de SerialComputadores: " << SerialComputadores << std::endl;

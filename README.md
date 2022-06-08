@@ -1,70 +1,53 @@
 <h2>
 #Block001</h2>1. Introdução e Instalação do Ambiente de Programação
 
-
 <h2>
 #Block002</h2>2. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
-
 
 <h2>
 #Block003</h2>3. Conceitos Importantes Sobre Programação de Computadores
 
-
 <h2>
 #Block004</h2>4. Criando e Manipulando Variáveis
-
 
 <h2>
 #Block005</h2>5. Entrada de Dados e Programando com Operadores Aritméticos, Relacionais e Lógicos
 
-
 <h2>
 #Block006</h2>6. Estruturas de Decisão Condicional (if-else Operador Ternário   Switch Case)
-
 
 <h2>
 #Block007</h2>7. Estruturas de Repetição(Loops) while, do-while, for
 
-
 <h2>
 #Block008; #Block009</h2>8. Funções Conceitos  e Desenvolvimento
-
 
 <h2>
 #Block010</h2>9. Ponteiros conceitos e prática
 
-
 <h2>
 #Block011</h2>10. &Referências Conceitos e Prática
-
 
 <h2>
 #Block012</h2>11. Vetores(Arrays) e Matrizes
 
-
 <h2>
 #Block013</h2>12. Aritmética de Ponteiros e a relação com Vetores (ptr + 2) , ptr++, ptr--, ptr
-
 
 <h2>
 #Block014</h2>13. Programação Orientada a Objetos em C++  Classes, Objetos, Atributos e Métodos
 
-
 <h2>
 #Block015</h2>14. Entendendo as Regiões da RAM (Stack e Heap) para entender Orientação à Objetos
-
 
 <h2>
 #Block016</h2>15. Orientação à Objetos  .h x .cpp - Ponteiro this, Construtores e Destrutores
 
-
 <h2>
 #Block017</h2>16. Structs - Estruturas em C++
 
-
 <h2>
 #Block018</h2>17. Conceitos Avançados de Orientação a Objetos com C++
-
 
 <h2>#Block001</h2>
 1. Introdução e Instalação do Ambiente de Programação
@@ -91,8 +74,6 @@
 00:08:59 4. Resolução Questão 04
 
 <h2>#Block003</h2>
-
-
 3. Conceitos Importantes Sobre Programação de Computadores
 <br>
 00:00:00 1. O que é a tal abstração tão falada na área de computação
@@ -110,8 +91,6 @@
 
 <h2>#Block004
 </h2>
-
-
 4. Criando e Manipulando Variáveis
 <br>
 00:00:00 1. O que é e como declarar uma variável
@@ -143,8 +122,6 @@
 
 <h2>#Block005
 </h2>
-
-
 5. Entrada de Dados e Programando com Operadores Aritméticos, Relacionais e Lógicos
 <br>
 00:00:00 1. stdcin  recebendo dados do usuário via teclado.
@@ -174,8 +151,6 @@
 
 <h2>#Block006
 </h2>
-
-
 6. Estruturas de Decisão Condicional (if-else Operador Ternário   Switch Case)
 <br>
 00:00:00 1. Estrutura de Decisão Condicional se então, if e else - Conceito
@@ -195,8 +170,6 @@
 
 <h2>#Block007
 </h2>
-
-
 7. Estruturas de Repetição(Loops) while, do-while, for
 <br>
 00:00:00 1. Estruturas de Repetição(Loops) while
@@ -214,8 +187,6 @@
 
 <h2>#Block008
 </h2>
-
-
 8. Funções Conceitos  e Desenvolvimento
 <br>
 00:00:00 1. Introdução as funções
@@ -245,16 +216,12 @@
 
 <h2>#Block009
 </h2>
-
-
 8. Funções Conceitos  e Desenvolvimento
 00:00:00 13. Variáveis Locais Estáticas (static)
 00:07:43 14. Argumentos Padrão para funções – Default Argument
 
 <h2>#Block010
 </h2>
-
-
 9. Ponteiros conceitos e prática
 <br>
 00:00:00 1. Importantes conceitos variáveis, endereços e memória - Parte 1
@@ -277,8 +244,6 @@
 
 <h2>#Block011
 </h2>
-
-
 10. &Referências Conceitos e Prática
 <br>
 00:00:00 1. O que são referências
@@ -296,8 +261,6 @@
 
 <h2>#Block012
 </h2>
-
-
 1.  Vetores(Arrays) e Matrizes
 <br>
 00:00:00 1. Por que os Vetores(Arrays) Foram criados
@@ -332,8 +295,6 @@
 
 <h2>#Block013
 </h2>
-
-
 12. Aritmética de Ponteiros e a relação com Vetores (ptr + 2) , ptr++, ptr--, ptr
 <br>
 00:00:00 1. A relação de Arrays(Vetores) com os Ponteiros
@@ -348,8 +309,6 @@
 
 <h2>#Block014
 </h2>
-
-
 13. Programação Orientada a Objetos em C++  Classes, Objetos, Atributos e Métodos
 <br>
 00:00:00 1. O Paradigma da Programação Estruturada
@@ -369,8 +328,6 @@
 
 <h2>#Block015
 </h2>
-
-
 14. Entendendo as Regiões da RAM (Stack e Heap) para entender Orientação à Objetos
 <br>
 00:00:00 1. O que são as Regiões da Memória RAM Código, StaticGlobal, Stack e Heap
@@ -384,8 +341,6 @@
 
 <h2>#Block016
 </h2>
-
-
 15. Orientação à Objetos  .h x .cpp - Ponteiro this, Construtores e Destrutores
 <br>
 00:00:00 1. Separando Conceito e Implementação de Classes em Arquivos .h e .cpp
@@ -403,8 +358,6 @@
 
 <h2>#Block017
 </h2>
-
-
 16. Structs - Estruturas em C++
 <br>
 00:00:00 1. O que são structs e diferenças para classes
@@ -436,8 +389,6 @@
 
 <h2>#Block018
 </h2>
-
-
 17. Conceitos Avançados de Orientação a Objetos com C++
 <br>
 00:00:00 1. Conceito de Herança

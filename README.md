@@ -80,10 +80,7 @@
 00:20:50 5. O que é uma IDE
 
 <h2>#Block002</h2>
-
-
-
-2. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
+1. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
 <br>
 00:00:00 1. Resolução Questão 01
 <br>

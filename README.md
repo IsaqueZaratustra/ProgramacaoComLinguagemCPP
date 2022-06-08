@@ -1,5 +1,4 @@
-#Block001
-
+<h2>#Block001</h2>
 1. Introdução e Instalação do Ambiente de Programação
 00:00:00 1. Instalando a IDE Visual Studio Community 2019
 00:03:58 2. Instalando Visual Studio Community 2017 (Se não for usar o Visual Studio 2019)
@@ -7,6 +6,7 @@
 00:11:54 4. Analisando seu primeiro programa C++
 00:20:50 5. O que é uma IDE
 
+<h2></h2>
 
 #Block002
 

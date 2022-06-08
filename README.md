@@ -2,68 +2,68 @@
 #Block001</h2>1. Introdução e Instalação do Ambiente de Programação
 
 
-<h2>2. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
-#Block002</h2>
-
-
-<h2>3. Conceitos Importantes Sobre Programação de Computadores
-#Block003</h2>
-
-
-<h2>4. Criando e Manipulando Variáveis
-#Block004</h2>
-
-
-<h2>5. Entrada de Dados e Programando com Operadores Aritméticos, Relacionais e Lógicos
-#Block005</h2>
-
-
-<h2>6. Estruturas de Decisão Condicional (if-else Operador Ternário   Switch Case)
-#Block006</h2>
-
-
-<h2>7. Estruturas de Repetição(Loops) while, do-while, for
-#Block007</h2>
-
-
-<h2>8. Funções Conceitos  e Desenvolvimento
-#Block008; #Block009</h2>
-
-
-<h2>9. Ponteiros conceitos e prática
-#Block010</h2>
-
-
-<h2>10. &Referências Conceitos e Prática
-#Block011</h2>
-
-
-<h2>11. Vetores(Arrays) e Matrizes
-#Block012</h2>
-
-
-<h2>12. Aritmética de Ponteiros e a relação com Vetores (ptr + 2) , ptr++, ptr--, ptr
-#Block013</h2>
+<h2>
+#Block002</h2>2. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
 
 
 <h2>
-13. Programação Orientada a Objetos em C++  Classes, Objetos, Atributos e Métodos
-#Block014</h2>
-
-<h2>14. Entendendo as Regiões da RAM (Stack e Heap) para entender Orientação à Objetos
-#Block015</h2>
+#Block003</h2>3. Conceitos Importantes Sobre Programação de Computadores
 
 
-<h2>15. Orientação à Objetos  .h x .cpp - Ponteiro this, Construtores e Destrutores
-#Block016</h2>
+<h2>
+#Block004</h2>4. Criando e Manipulando Variáveis
 
 
-<h2>16. Structs - Estruturas em C++
-#Block017</h2>
+<h2>
+#Block005</h2>5. Entrada de Dados e Programando com Operadores Aritméticos, Relacionais e Lógicos
 
 
-<h2>17. Conceitos Avançados de Orientação a Objetos com C++
-#Block018</h2>
+<h2>
+#Block006</h2>6. Estruturas de Decisão Condicional (if-else Operador Ternário   Switch Case)
+
+
+<h2>
+#Block007</h2>7. Estruturas de Repetição(Loops) while, do-while, for
+
+
+<h2>
+#Block008; #Block009</h2>8. Funções Conceitos  e Desenvolvimento
+
+
+<h2>
+#Block010</h2>9. Ponteiros conceitos e prática
+
+
+<h2>
+#Block011</h2>10. &Referências Conceitos e Prática
+
+
+<h2>
+#Block012</h2>11. Vetores(Arrays) e Matrizes
+
+
+<h2>
+#Block013</h2>12. Aritmética de Ponteiros e a relação com Vetores (ptr + 2) , ptr++, ptr--, ptr
+
+
+<h2>
+#Block014</h2>13. Programação Orientada a Objetos em C++  Classes, Objetos, Atributos e Métodos
+
+
+<h2>
+#Block015</h2>14. Entendendo as Regiões da RAM (Stack e Heap) para entender Orientação à Objetos
+
+
+<h2>
+#Block016</h2>15. Orientação à Objetos  .h x .cpp - Ponteiro this, Construtores e Destrutores
+
+
+<h2>
+#Block017</h2>16. Structs - Estruturas em C++
+
+
+<h2>
+#Block018</h2>17. Conceitos Avançados de Orientação a Objetos com C++
 
 
 

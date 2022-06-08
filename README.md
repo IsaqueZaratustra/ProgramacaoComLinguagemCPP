@@ -1,3 +1,72 @@
+<h2></h2>
+
+1. Introdução e Instalação do Ambiente de Programação
+#Block001
+<h2></h2>
+
+2. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
+#Block002
+<h2></h2>
+
+3. Conceitos Importantes Sobre Programação de Computadores
+#Block003
+<h2></h2>
+
+4. Criando e Manipulando Variáveis
+#Block004
+<h2></h2>
+
+5. Entrada de Dados e Programando com Operadores Aritméticos, Relacionais e Lógicos
+#Block005
+<h2></h2>
+
+6. Estruturas de Decisão Condicional (if-else Operador Ternário   Switch Case)
+#Block006
+<h2></h2>
+
+7. Estruturas de Repetição(Loops) while, do-while, for
+#Block007
+<h2></h2>
+
+8. Funções Conceitos  e Desenvolvimento
+#Block008; #Block009
+<h2></h2>
+
+9. Ponteiros conceitos e prática
+#Block010
+<h2></h2>
+
+10. &Referências Conceitos e Prática
+#Block011
+<h2></h2>
+
+11. Vetores(Arrays) e Matrizes
+#Block012
+<h2></h2>
+
+12. Aritmética de Ponteiros e a relação com Vetores (ptr + 2) , ptr++, ptr--, ptr
+#Block013
+<h2></h2>
+
+13. Programação Orientada a Objetos em C++  Classes, Objetos, Atributos e Métodos
+#Block014
+<h2></h2>
+
+14. Entendendo as Regiões da RAM (Stack e Heap) para entender Orientação à Objetos
+#Block015
+<h2></h2>
+
+15. Orientação à Objetos  .h x .cpp - Ponteiro this, Construtores e Destrutores
+#Block016
+<h2></h2>
+
+16. Structs - Estruturas em C++
+#Block017
+<h2></h2>
+
+17. Conceitos Avançados de Orientação a Objetos com C++
+#Block018
+
 <h2>#Block001</h2>
 1. Introdução e Instalação do Ambiente de Programação
 00:00:00 1. Instalando a IDE Visual Studio Community 2019
@@ -16,6 +85,7 @@
 00:06:28 3. Resolução Questão 03)
 00:08:59 4. Resolução Questão 04)
 
+<h2></h2>
 
 #Block003
 
@@ -28,6 +98,7 @@
 00:47:01 6. Analisando mais a fundo o código,a geração do .exe e execução primeiro programa
 
 
+<h2></h2>
 
 #Block004
 
@@ -47,6 +118,7 @@
 01:19:18 13. Constantes
 
 
+<h2></h2>
 
 #Block005
 
@@ -65,6 +137,7 @@
 01:27:16 12. Operador Incremento ++ e Decremento  Pré-fixados e Pós-Fixados
 
 
+<h2></h2>
 
 #Block006
 
@@ -78,6 +151,7 @@
 00:36:38 7. Estrutura de Seleção Condicional  SwitchCase Prática de Programação
 
 
+<h2></h2>
 
 #Block007
 
@@ -90,6 +164,7 @@
 00:34:56 6. Estruturas de Repetição(Loops) for - prática de programação
 
 
+<h2></h2>
 
 #Block008
 
@@ -108,6 +183,7 @@
 01:49:56 12. Debugando código e entendendo escopo de variáveis na prática
 
 
+<h2></h2>
 
 #Block009
 
@@ -115,6 +191,7 @@
 00:00:00 13. Variáveis Locais Estáticas (static)
 00:07:43 14. Argumentos Padrão para funções – Default Argument
 
+<h2></h2>
 
 #Block010
 
@@ -129,6 +206,7 @@
 01:02:52 8. Consolidando Ponteiros Genéricos void
 01:09:33 9. Exercício Sobre Ponteiros
 
+<h2></h2>
 
 #Block011
 
@@ -141,6 +219,7 @@
 00:37:35 6. Passagem de argumentos para funções por referência utilizando ponteiros
 
 
+<h2></h2>
 
 #Block012
 
@@ -161,6 +240,7 @@
 01:40:14 15. For Each Loop - Exercício Proposto
 01:48:46 16. Exercício Faça você mesmo For Each Loop
 
+<h2></h2>
 
 #Block013
 
@@ -171,6 +251,7 @@
 00:25:54 4. Aritmética de Ponteiros na Prática!
 00:38:43 5. Aritmética de Ponteiros na Prática Parte 2
 
+<h2></h2>
 
 #Block014
 
@@ -184,6 +265,7 @@
 00:50:56 7. Acesso de Atributos e Chamada de Métodos(funções) via notação flecha -
 
 
+<h2></h2>
 
 #Block015
 
@@ -194,6 +276,7 @@
 00:26:46 4. Instanciação na RAM Objetos estáticos na STACK e Objetos Dinâmicos na Heap
 
 
+<h2></h2>
 
 #Block016
 
@@ -206,6 +289,7 @@
 00:59:06 6. O Método(Função) ~Destrutor
 
 
+<h2></h2>
 
 #Block017
 
@@ -225,6 +309,7 @@
 01:34:37 13. typedef com structs
 
 
+<h2></h2>
 
 #Block018
 
@@ -235,68 +320,3 @@
 00:20:58 4. Exercício importância da Herança Parte 1
 00:28:50 5. Exercício importância Herança Parte 2 Criação e Chamada Construtores na Herança
 00:41:41 6. Exercício importância da Herança Parte 3 Funções Get e Funções Sets
-
-
-
-⚠️ Atenção ⚠️
- 
-Clique aqui para ver o Menu de navegação.
-Utilize as # para navegar rapidamente entre os blocos de vídeos.
-
-Para acessar os materiais, utilize a #materiais
-
-
-
-1. Introdução e Instalação do Ambiente de Programação
-#Block001
-
-2. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
-#Block002
-
-3. Conceitos Importantes Sobre Programação de Computadores
-#Block003
-
-4. Criando e Manipulando Variáveis
-#Block004
-
-5. Entrada de Dados e Programando com Operadores Aritméticos, Relacionais e Lógicos
-#Block005
-
-6. Estruturas de Decisão Condicional (if-else Operador Ternário   Switch Case)
-#Block006
-
-7. Estruturas de Repetição(Loops) while, do-while, for
-#Block007
-
-8. Funções Conceitos  e Desenvolvimento
-#Block008; #Block009
-
-9. Ponteiros conceitos e prática
-#Block010
-
-10. &Referências Conceitos e Prática
-#Block011
-
-11. Vetores(Arrays) e Matrizes
-#Block012
-
-12. Aritmética de Ponteiros e a relação com Vetores (ptr + 2) , ptr++, ptr--, ptr
-#Block013
-
-13. Programação Orientada a Objetos em C++  Classes, Objetos, Atributos e Métodos
-#Block014
-
-14. Entendendo as Regiões da RAM (Stack e Heap) para entender Orientação à Objetos
-#Block015
-
-15. Orientação à Objetos  .h x .cpp - Ponteiro this, Construtores e Destrutores
-#Block016
-
-16. Structs - Estruturas em C++
-#Block017
-
-17. Conceitos Avançados de Orientação a Objetos com C++
-#Block018
-
-
-Bons estudos!

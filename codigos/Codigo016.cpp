@@ -4,9 +4,9 @@ int SomaAUmNumero (int Numero, int NumeroASerSomado){
     return Numero + NumeroASerSomado;
 }
 void Mensagem(){
-    std::cout << "\n Mensagem não enviada..." << std::endl;
+    std::cout << "\n Mensagem nao enviada..." << std::endl;
     //return
-    std::cout << "\n Mensagem não enviada... novamente" << std::endl;
+    std::cout << "\n Mensagem nao enviada... novamente" << std::endl;
     //return
 }
 int main()
@@ -21,7 +21,7 @@ int main()
     std::cin >> NumeroASerSomado;
     std::cout <<"A soma do numero " << Numero << " com o numero " << NumeroASerSomado << " resulta em: " << SomaAUmNumero(Numero, NumeroASerSomado) <<std::endl;
     RetornoDafuncao = SomaAUmNumero (200, -500);
-    std::cout << "soma de 200 com -500 é: " << RetornoDafuncao << std::endl;
+    std::cout << "soma de 200 com -500 resulta em: " << RetornoDafuncao << std::endl;
     std::cout << SomaAUmNumero(Numero, SomaAUmNumero(150, 1400)) << std::endl;
 
     system("Pause");

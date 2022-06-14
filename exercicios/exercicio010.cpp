@@ -4,7 +4,9 @@ int ParOuImpar(int num){
     if (num % 2 == 0)
     {
         std::cout << "Esse numero eh par" << std::endl;
-    } 
+    } else {
+        std::cout << "Esse numero eh impar" << std::endl;
+    }
 }
 
 int main()

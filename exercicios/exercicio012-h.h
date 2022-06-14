@@ -1,4 +1,4 @@
-#include "exercicios012.cpp"
+#include "exercicio012.cpp"
 
 int adicao (int num1, int num2);
 int subtracao (int num1, int num2);

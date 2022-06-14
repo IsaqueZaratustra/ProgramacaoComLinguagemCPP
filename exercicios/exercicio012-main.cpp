@@ -1,5 +1,5 @@
 #include <iostream>
-#include "exercicios012.h"
+#include "exercicio012.h"
 
 int main()
 {

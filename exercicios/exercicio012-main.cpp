@@ -16,6 +16,9 @@ int main()
     std::cout << "Subtracao: " << subtracao(num1, num2) << std::endl;
     std::cout << "Multiplicacao: " << multiplicacao(num1, num2) << std::endl;
     std::cout << "Divisao: " << divisao(num1, num2) << std::endl;
+    std::cout << "Potencia: " << potencia(num1, num2) << std::endl;
+    std::cout << "Raiz quadrada do primeiro numero: " << raizQuadrada(num1) << std::endl;
+    std::cout << "Raiz quadrada do segundo numero: " << raizQuadrada2(num2) << std::endl;
 
     system("Pause");
     return 0;

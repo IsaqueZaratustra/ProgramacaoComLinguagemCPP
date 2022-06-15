@@ -3,7 +3,7 @@
 
 int main()
 {
-    int num1, num2;
+    static int num1, num2;
 
     std::cout << "***insira dois numeros, para obter resultados das 4 operacoes basicas***" << std::endl;
     std::cout << "Insira o primeiro numero: " << std::endl;

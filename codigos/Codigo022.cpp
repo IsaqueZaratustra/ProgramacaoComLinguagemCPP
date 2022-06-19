@@ -12,7 +12,7 @@ int main()
     std::cout << "\nValor de endereco de Ref: " << &Ref << std::endl;
     
     int* ptr = &Numero;
-    std::cout << "\nValor Endereco de ptr na RAM: " << &ptr << std::endl;
+    std::cout << "\nValor de endereco de ptr na RAM: " << &ptr << std::endl;
     std::cout << "\nValor de Numero usando ptr: " << *ptr << std::endl;
     std::cout << "\nValor de endereco contido na ptr: " << ptr << std::endl;
 

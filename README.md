@@ -1,6 +1,6 @@
 <h2>
 #Block001</h2>1. Introdução e Instalação do Ambiente de Programação
-
+.
 <h2>
 #Block002</h2>2. Primeira Lista de Exercícios e Resolução desta Primeira Lista de Exercícios
 

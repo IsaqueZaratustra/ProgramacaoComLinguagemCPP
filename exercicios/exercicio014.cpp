@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 
 for (size_t i = 0; i < 10; i++)
 {
-    std::cout << "Digite um numero para acrescentar a soma: "<< std::endl;
+    std::cout << "Digite um numero para acrescentar a soma: "<< Soma << std::endl;
     std::cin >> Numero[i];
     Soma = Soma + Numero[i];
     system("CLS");

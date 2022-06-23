@@ -12,12 +12,15 @@ int main(int argc, char const *argv[])
         std::cout <<"Digite um numero: " << std::endl;
         std::cin >> Array[i];
 
+Min = Array [0];
+Max = Array [0];
+
 if (Array[i] > Max)
     Max = Array[i];
 else if (Array[i] < Min)
     Min = Array[i];
 
-    //    system("Clear || CLS");
+    system("Clear || CLS");
 }
 Maximo = Max;
 Minimo = Min;

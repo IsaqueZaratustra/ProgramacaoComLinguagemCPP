@@ -6,9 +6,10 @@ int main(int argc, char const *argv[])
 {
     int TamanhoDoVetor;
     int Vetor [] {1,2,3,4,5,6,7,8,9,10};
+    int Tam;
 
-    MostrarVetor(Vetor, 10);
-
+    Tam = sizeof(Vetor)/sizeof(int);
+    MostrarVetor(Vetor, Tam);
     system("Pause");
     return 0;
 }

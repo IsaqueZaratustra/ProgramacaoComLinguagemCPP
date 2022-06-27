@@ -13,9 +13,9 @@ int main(int argc, char const *argv[])
     {
         for (size_t j = 0; j < 5; j++)
         {
-            std::cout << ArrayNegativoPositivo[i][j] << std::endl;
+            std::cout << ArrayNegativoPositivo[i][j] << " ";
         }
-        
+        std::cout << std::endl;
     }
     
     system("Pause");

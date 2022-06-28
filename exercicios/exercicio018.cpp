@@ -1,4 +1,5 @@
 # include <iostream>
+# include <iomanip>
 
 int main(int argc, char const *argv[])
 {
@@ -13,7 +14,7 @@ int main(int argc, char const *argv[])
     
     Media = Soma / 9;
 
-    std::cout << Media << std::endl;
+    std::cout << std::setprecision(4)<< Media << std::endl;
 
     system("Pause");
     return 0;

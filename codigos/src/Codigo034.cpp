@@ -64,6 +64,18 @@ std::string Conta :: GetTitular(){
     return Titular;
 }
 
+void Conta::SetBanco(std::string Banco){
+    this->Banco = Banco;
+}
 
+void Conta::SetAgencia(int Agencia){
+    this->Agencia = Agencia;
+}
 
+void Conta::SetTitular(std::string Titular){
+    this->Titular = Titular;
+}
 
+void Conta::SetNumConta(int NumConta){
+    this->NumConta = NumConta;
+}

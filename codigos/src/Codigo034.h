@@ -35,5 +35,4 @@ public:
 	void SetAgencia(int Agencia);
 	void SetTitular(std::string Titular);
 	void SetNumConta(int NumConta);
-
 };

@@ -1,27 +1,42 @@
-# include "Codigo034.h"
-# include <iostream>
-# include <string>
+//precisamos incluir o arquivo .h relativo a classe Conta
+//Para que este arquivo Conta.cpp possa "Enxergar" as declarações da classe Conta.
+#include "Codigo034.h"
+#include <iostream>
+#include <string>
 
-bool Conta :: Sacar(double Valor){
-    if (Saldo < Valor)
-    {
-    std::cout << "Saldo insuficiente! " << std::endl;
-    return false;
-    }else
-    {
-    Saldo -= Valor;
-    return true;
-    }
-    std::cout << "Valor sacado: " << Valor << std::endl;    
+//Aqui o operador escopo:: está indicando que a função/Método sacar pertence a classe Conta e que este código a seguir vai implementar a função Sacar.
+bool Conta::Sacar(double Valor)
+{
+	//Se o valor do Saldo no Objeto for menor que o valor a ser sacado, ele não poderá sacar
+	if (Saldo < Valor)
+	{
+		std::cout << "\nSaldo Insuficiente!\n";
+		std::cout << "Seu Saldo Atual: R$" << ConsultarSaldo() << "\n";
+		return false;
+	}
+	else
+	{
+	//Senão ele poderá sacar
+	//Temos que diminuir o saldo
+		Saldo = Saldo - Valor;
+		std::cout << "Seu Saldo Atual: R$" << ConsultarSaldo() << "\n";
+		return true;
+	}
+	
 }
 
-void Conta :: Depositar(double Valor){
-    Saldo += Valor;
-    std::cout <<" Valor depositado: " << Valor << std::endl;
+void Conta::Depositar(double Valor)
+{
+	Saldo += Valor; //o mesmo que Saldo = Saldo + Valor;
+	std::cout << "\nDeposito de R$ " << Valor << " Efetuado com Sucesso!\n";
 }
 
-void Conta :: Transferir(Conta &Destino, double Valor){
-    if (Saldo < Valor)
+//A função recebe como argumentos para seus seus parêmtros um Objeto do tipo Casa e um valor double.
+
+//Aqui o parâmetro Destino irá receber este objeto
+void Conta::Transferir(Conta &Destino, double Valor)
+{
+	if (Saldo < Valor)
 	{
 		std::cout << "\nSaldo Insuficiente\n";
 
@@ -44,38 +59,55 @@ void Conta :: Transferir(Conta &Destino, double Valor){
 	}
 }
 
-double Conta :: ConsultarSaldo(){
-    return Saldo;
+double Conta::ConsultarSaldo()
+{
+	return Saldo;
 }
 
-std::string Conta :: GetBanco(){ 
-    return Banco;
+std::string Conta::GetBanco()
+{
+	return Banco;
 }
 
-int Conta :: GetAgencia(){
-    return Agencia;
+int Conta::GetAgencia()
+{
+	return Agencia;
 }
 
-int  Conta :: GetNumConta(){
-    return NumConta;
+int Conta::GetNumConta()
+{
+	return NumConta;
 }
 
-std::string Conta :: GetTitular(){
-    return Titular;
+std::string Conta::GetTitular()
+{
+	return Titular;
 }
 
-void Conta::SetBanco(std::string Banco){
-    this->Banco = Banco;
+void Conta::SetBanco(std::string Banco)
+{
+	//Como o compilador vai saber se Bancó é variável local ou o atributo da classe Conta?
+	//se this é um ponteiro para chegar no apontado pelo ponteiro temos
+	//*this , mas como this é um ponteiro para um objeto ele precisa usar a notação ponto. para acessar atributos e executar funções do objeto
+
+	//Agora o compilador sabe que Banco é a variável local que recebeu o argumento string
+	//e que deve ser colocada no atributo Banco do objeto apontado por this
+	//(*this).Banco = Banco;
+	//Contudo no geral usa-se a notação flecha
+	this->Banco = Banco;
 }
 
-void Conta::SetAgencia(int Agencia){
-    this->Agencia = Agencia;
+void Conta::SetAgencia(int Agencia)
+{
+	this->Agencia = Agencia;
 }
 
-void Conta::SetTitular(std::string Titular){
-    this->Titular = Titular;
+void Conta::SetNumConta(int NumConta)
+{
+	this->NumConta = NumConta;
 }
 
-void Conta::SetNumConta(int NumConta){
-    this->NumConta = NumConta;
+void Conta::SetTitular(std::string Titular)
+{
+	this->Titular = Titular;
 }

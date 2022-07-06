@@ -12,7 +12,7 @@ struct Livros
     std::string Editora;
     int Ano;
     void LivroNaTela (Livros Livro){
-        std::cout << "Titulo: "<< Titulo << " Autor: "<< Autor << " Editora:" << Editora << "Ano:" << Ano << std::endl;
+        std::cout << "Titulo: "<<  Titulo << '\n'<<"Autor: "<< Autor <<'\n'<< "Editora: " << Editora<<'\n'<< "Ano: " << Ano << std::endl;
     }
 };
 
